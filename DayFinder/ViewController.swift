@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     func setInitialViewSettings() {
         let navBarAppearence = UINavigationBarAppearance()
         navBarAppearence.backgroundColor = .systemGray
-        navBarAppearence.largeTitleTextAttributes =  [NSAttributedString.Key.foregroundColor : UIColor.systemOrange]
+        navBarAppearence.largeTitleTextAttributes =  [NSAttributedString.Key.foregroundColor : UIColor.systemTeal]
         self.navigationController?.navigationBar.scrollEdgeAppearance = navBarAppearence
         
         self.view.backgroundColor = .systemGray2
@@ -43,7 +43,7 @@ class ViewController: UIViewController {
         findButton.layer.cornerRadius = 4
         findButton.layer.borderColor = UIColor.white.cgColor
         findButton.layer.borderWidth = 2
-        findButton.setTitleColor(.systemOrange, for: .normal)
+        findButton.setTitleColor(.systemTeal, for: .normal)
     }
     
     
